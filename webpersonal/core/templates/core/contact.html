@@ -1,0 +1,27 @@
+{% extends "core/base.html"%}
+
+{% block title %}
+Contacto
+{% endblock %}
+
+{% block background %}{% load static%}{% static 'core/img/background_prueba.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Contacto</h1>
+<span class="subheading">Info</span>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Feel free to email me.</p>
+        <br>
+        {% comment %} <p><b>Phone:</b> +58 412 084 2876</p> {% endcomment %}
+        <p><b>Email:</b> joelcalanche96@gmail.com</p>
+        <p><b>github:</b> github.com/Joelcalanche</p>
+    </div>
+</div>
+{% endblock %}
+
+
+

@@ -1,0 +1,57 @@
+{% extends "core/base.html"%}
+
+
+{% block title %}
+Acerca de
+{% endblock %}
+
+{% block background %}{% load static%}{% static 'core/img/about_joel.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>ABOUT ME</h1>
+<span class="subheading">BIO</span>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/joelimagen.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Joel Calanche</h2>   
+        
+        <p align="justify">
+            Hello, my name is Joel Calanche. I am fundamentally Christian. I am Venezuelan. With degree in electrical engineer, graduated in 2019 from the National Experimental Polytechnic University "Antonio Jose de Sucre" (UNEXPO), I really like math, engineering sciences and now a computer science, during my career I excelled in subjects such as calculus, physics, electrical circuits, digital electronics, automatic control and analysis of electrical power systems.<br><br>  
+    	    I worked in CORPOELEC (Venezuelan national electrical company) conducting electrical studies such as load flow, short-circuit, transient stability and study of overvoltages. I developed a dynamic model of the electrical network for studies of overvoltages in submarine cables during opening and closing operations I have worked in CASIMA (national steel complex) as an instrumentalist, performing maintenance supervision tasks of sensors and electrical and electronic equipment<br><br> 
+            During this last year I decided to dedicate myself to learning about modern technologies such as Machine learning and Deep learning using the Python programming language. I have completed the following Udemy courses :<a href="https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/">“Complete Machine Learning and Data Science: Zero to Mastery” (43 hours)</a>, <a href="https://www.udemy.com/course/machinelearningpython/"> “Curso completo de Machine Learning: Data Science en Python”(49 hours)</a>, with which ones I learned to develop several types of predictive models for regression problems, classification (binary and multiple), both for structured and unstructured data.<br><br> 
+            I am particularly interested in models based on neural networks and decision trees. I also learned about data manipulation and processing using Python libraries such as Pandas, Numpy, Matplotlit, TensorFlow, Scikit-learn. You can see all my projects by visiting my repository at<a href="https://github.com/joelcalanche"> githud</a>.
+            I am excited to be able to integrate machine learning knowledge with electrical engineering in order to create intelligent and more efficient electrical systems in both generation, transmission and distribution. 
+    	
+    	
+        
+        </p>
+{% comment %}         
+        <p  align="justify"> 
+            Trabaje en CORPOELEC ( empresa nacional venezolana) realizando estudios eléctricos como flujo de carga, corto-circuito,  estabilidad transitoria y estudio de sobretensiones, Desarrolle un modelo dinámico de la red eléctrica para estudios de sobretensiones en cables submarinos durante de maniobras de apertura y cierre,   he trabajo en CASIMA ( complejo siderúrgico nacional) como instrumentista, realizando tareas  de supervisión de mantenimiento de sensores y equipos eléctricos  y electrónicos<br>
+    	</p
+        
+        <p> 
+
+            Durante este último año decidí dedicarme a aprender sobre tecnologías modernas como el Machine learning y el Deep learning usando el lenguaje de programación Python,  realice los  siguientes cursos de Udemy :“Complete Machine Learning and Data Science: Zero to Mastery” (43 horas), “Curso completo de Machine Learning: Data Science en Python”(49 horas), con los cuales  aprendí a desarrollar  varios tipos de modelos predictivos para problemas de regresión, clasificación (binaria y múltiple) , tanto para  datos estructurados  como no estructurados.<br>
+    	</p
+        <p align="justify"> 
+    	</p
+        <p align="justify"> 
+
+            Siento particular interés en los modelos basados en redes neuronales y árboles de decisión.  También aprendí sobre manipulación y procesamiento de datos usando las librerías de Python  tales como Pandas, Numpy, Matplotlit, TensorFlow, Scikit-learn.  Puede ver todos mis proyectos visitando mi repositorio en githud. 
+    	</p
+        <p align="justify">
+
+            Sueño con integrar los conocimientos de machine learning con la ingeniería eléctrica a fin de crear sistemas eléctricos inteligentes y más eficientes tanto en generación, transmisión y distribución.
+        
+        </p> {% endcomment %}
+
+
+    </div>
+</div>   
+{% endblock %}
